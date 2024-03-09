@@ -49,6 +49,7 @@
     top: 0px;
     width: 100%;
     height: 10%;
+    display: flex;
 }
 
 .header-content-item{

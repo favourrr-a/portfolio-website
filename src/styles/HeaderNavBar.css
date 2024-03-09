@@ -1,0 +1,30 @@
+.header-nav-bar-content{
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    border: 2px solid gold;
+    position: absolute;
+    right: 0px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.nav-bar-content{
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#nav-bar-content-1{
+    color: white;
+    font-size: larger;
+    border: 2px solid purple;
+}
+
+#nav-bar-content-2{
+    color: white;
+    font-size: larger;
+    border: 2px solid purple;
+}
