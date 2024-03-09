@@ -8,13 +8,20 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-
 }
 
 .nav-bar-content{
     width: 100px;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+.nav-bar-content:hover{
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: pink;
+    cursor: pointer;
 }
 
 #nav-bar-content-1{

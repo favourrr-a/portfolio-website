@@ -1,6 +1,10 @@
+import { useNavigate } from 'react-router-dom';
 import HeaderNavBar from './HeaderNavBar';
 import '../styles/HeaderStructure.css'
 function HeaderStructure() {
+
+    const navigate = useNavigate();
+
     return (
         <>
             <div className="header-container">
