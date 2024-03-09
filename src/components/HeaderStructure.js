@@ -1,9 +1,8 @@
-import { useNavigate } from 'react-router-dom';
 import HeaderNavBar from './HeaderNavBar';
+import HeaderContent from './HeaderContent';
 import '../styles/HeaderStructure.css'
 function HeaderStructure() {
 
-    const navigate = useNavigate();
 
     return (
         <>
@@ -14,14 +13,8 @@ function HeaderStructure() {
                     </div>
 
                     <div className="header-content">
-                        <div className="header-content-item" id="header-content-item-1">
-
-                        </div>
-                        <div className="header-content-item" id="header-content-item-2">
-
-                        </div>
-                        <div className="header-content-item" id="header-content-item-3">
-
+                        <div className="header-content-item">
+                            <HeaderContent/>
                         </div>
                     </div>
                     <div className="header-bottom-part">

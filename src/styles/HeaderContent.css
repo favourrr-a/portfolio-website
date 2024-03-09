@@ -1,0 +1,16 @@
+#header-content-1{
+    border: 2px solid red;
+}
+
+#header-content-2{
+    border: 2px solid pink;
+
+
+}
+
+
+.header-content {
+    color: pink;
+    margin: 0px;
+    padding: 0px;
+}
