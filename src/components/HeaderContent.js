@@ -7,7 +7,16 @@ function HeaderContent(){
 
     </div>
     <div id="header-content-2">
-<p>Yo!</p>
+        <div id = "header-content-2-content-1">
+        <p>Yo!</p>
+        </div>
+        <div id = "header-content-2-content-2">
+        <p>Yo!</p>
+        </div>
+        <div id = "header-content-2-content-3">
+        <p>Yo!</p>
+        </div>
+        
     </div>
     </>
     )
