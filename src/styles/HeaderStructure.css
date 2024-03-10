@@ -10,37 +10,16 @@
 
 .header{
     width: 80%;
-    border-left: 2px solid blue;
-    border-right: 2px solid blue;
     height: 100%;
     justify-content: center;
     align-items: center;
     display: flex;
-    position: relative;
-}
-
-.header-content{
-    border: 2px solid purple;
-    height: 80%; 
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    position: relative;
-    display: flex;
     flex-direction: column;
+    position: relative;
 }
 
-.header-bottom-part{
-    border: 2px solid yellow;
-    position: absolute;
-    bottom: 0px;
-    width: 100%;
-    height: 10%;
-
-}
 
 .header-nav-bar{
-    border: 2px solid yellow;
     position: absolute;
     top: 0px;
     width: 100%;
@@ -48,8 +27,21 @@
     display: flex;
 }
 
-.header-content-item{
-    border: 2px solid white;
+.header-content{
     width: 100%;
-    height: 100%;
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    height: 80%;
+    position: relative;
 }
+
+.header-bottom-part{
+
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    height: 10%;
+
+}
+
