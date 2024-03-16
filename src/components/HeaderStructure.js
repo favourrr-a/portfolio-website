@@ -8,21 +8,23 @@ function HeaderStructure() {
     return (
         <>
             <div className="header-container">
-                <div className="header">
-                <HeaderBackground/>
-                    <div className="header-nav-bar">
-                        <HeaderNavBar/>
-                    </div>
+                <HeaderBackground>
+                    <div className="header">
 
-                    <div className="header-content">
-                        <div className="header-content-item">
-                            <HeaderContent/>
+                        <div className="header-nav-bar">
+                            <HeaderNavBar />
+                        </div>
+
+                        <div className="header-content">
+                            <div className="header-content-item">
+                                <HeaderContent />
+                            </div>
+                        </div>
+                        <div className="header-bottom-part">
+
                         </div>
                     </div>
-                    <div className="header-bottom-part">
-
-                    </div>
-                </div>
+                </HeaderBackground>
             </div>
         </>
     )

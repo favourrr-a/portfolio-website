@@ -1,7 +1,8 @@
 import Circles from "./Circles";
+import '../styles/HeaderBackground.css'
 function HeaderBackground(){
     return(
-        <><Circles/></>
+        <div className="headerBackground"><Circles/></div>
     )
 }
 

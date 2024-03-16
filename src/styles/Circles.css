@@ -1,3 +1,15 @@
 .circle{
-    color: pink;
+    border: solid pink;
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%;
+    background-color: pink;
+}
+
+.circle:hover{
+    border: solid pink;
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%;
+    background-color: pink;
 }
