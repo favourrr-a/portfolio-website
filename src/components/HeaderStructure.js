@@ -1,5 +1,6 @@
 import HeaderNavBar from './HeaderNavBar';
 import HeaderContent from './HeaderContent';
+import HeaderBackground from './HeaderBackground';
 import '../styles/HeaderStructure.css'
 function HeaderStructure() {
 
@@ -8,6 +9,7 @@ function HeaderStructure() {
         <>
             <div className="header-container">
                 <div className="header">
+                <HeaderBackground/>
                     <div className="header-nav-bar">
                         <HeaderNavBar/>
                     </div>
