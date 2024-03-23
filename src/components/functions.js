@@ -1,0 +1,1 @@
+//this file will contain any functions i'll use in the website
