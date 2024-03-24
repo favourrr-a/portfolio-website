@@ -7,7 +7,6 @@ function HeaderContent(){
 
     </div>
     <div id="header-content-2">
-<<<<<<< HEAD
         <div className='header-actual-content'>
         <h2> Hi, I'm Favour</h2>
         <div>
@@ -31,17 +30,6 @@ see stuff i've done
         </div>
         </div>
     
-=======
-        <div id = "header-content-2-content-1">
-        <p>Yo!</p>
-        </div>
-        <div id = "header-content-2-content-2">
-        <p>Yo!</p>
-        </div>
-        <div id = "header-content-2-content-3">
-        <p>Yo!</p>
-        </div>
->>>>>>> 1209c35a5981b20d84f0e2dd30d2ad042075150d
         
     </div>
     </>
