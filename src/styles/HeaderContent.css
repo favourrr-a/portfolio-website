@@ -1,16 +1,10 @@
 #header-content-2{
-<<<<<<< HEAD
     position: absolute;
     bottom: 0px;
     border: 2px solid orange;
     height: 65%;
     width: 100%;
     margin: auto;
-=======
-    border: 2px solid pink;
-
-height: 80%;
->>>>>>> 1209c35a5981b20d84f0e2dd30d2ad042075150d
 }
 
 .header-actual-content{
