@@ -8,9 +8,8 @@ function HeaderStructure() {
     return (
         <>
             <div className="header-container">
-                <HeaderBackground>
                     <div className="header">
-
+                    <HeaderBackground/>
                         <div className="header-nav-bar">
                             <HeaderNavBar />
                         </div>
@@ -24,7 +23,6 @@ function HeaderStructure() {
 
                         </div>
                     </div>
-                </HeaderBackground>
             </div>
         </>
     )
