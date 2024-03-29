@@ -1,6 +1,6 @@
 import '../styles/Circles.css'
-import './functions'
-import React, { useState } from 'react';
+import moveCircles from './functions';
+import React, { useState, useEffect } from 'react';
 
 function Circle() {
   const colors = ['#ff6347', '#4682b4', '#90ee90', '#ffa500', '#8a2be2'];
@@ -10,6 +10,9 @@ function Circle() {
     const randomColor = colors[Math.floor(Math.random() * colors.length)];
     setColor(randomColor);
   };
+  useEffect(() => {
+    moveCircles();
+  }, []);
 
   return (
     <div className="circle" style={{ backgroundColor: color }} onClick={changeColor}></div>
