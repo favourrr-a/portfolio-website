@@ -1,5 +1,14 @@
 import '../styles/HeaderContent.css'
+import ThingsIveDone from '../pages/ThingsIveDone.js';
+import Router from '../routes/index.js'
+import { useNavigate } from 'react-router-dom';
+
 function HeaderContent(){
+    const navigate = new useNavigate();
+    const navToThingsIveDone = () => {
+
+        navigate('/thingsIveDone');
+    }
     return(
     <>
     <div id="header-content-1">
@@ -23,7 +32,7 @@ function HeaderContent(){
                 <div>
 hire me
                 </div>
-                <div>
+                <div onClick={navToThingsIveDone}>
 see stuff i've done
                 </div>
             </div>

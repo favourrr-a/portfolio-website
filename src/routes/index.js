@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 
 import Home from "../pages/Home";
 import Contact from "../pages/Contact"
+import ThingsIveDone from "../pages/ThingsIveDone";
 
 
 
@@ -12,6 +13,8 @@ const Router = () => {
             <Route index element={<Home/>}></Route>
             <Route path="home" element={<Home/>}></Route>
             <Route path="contact" element={<Contact/>}></Route>
+            <Route path="things-ive-done" element={<ThingsIveDone/>}></Route>
+
         </Routes>
     );
 }
