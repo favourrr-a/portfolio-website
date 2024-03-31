@@ -29,10 +29,10 @@ function HeaderContent(){
         </div>
         <div>
             <div className='buttons'>
-                <div>
+                <div className='button-in-body'>
 hire me
                 </div>
-                <div onClick={navToThingsIveDone}>
+                <div className='button-in-body' onClick={navToThingsIveDone}>
 see stuff i've done
                 </div>
             </div>
