@@ -31,7 +31,6 @@
 
 .button-in-body{
     background-color: pink;
-    border-radius: 7%;
     color: black;
     margin: 5px;
     /* border: 2px solid red; */
@@ -39,4 +38,9 @@
     width: 250px;
     padding: 5px;
     display: inline;
+}
+
+.button-in-body:hover{
+    background-color: pink;
+    cursor: pointer;
 }
