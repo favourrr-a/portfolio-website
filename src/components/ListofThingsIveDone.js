@@ -2,7 +2,7 @@ import '../styles/ListOfThingsIveDone.css'
 
 function ListOfThingsIveDone(){
     return(
-        <div>
+        <div className = "thingsIveDone-background">
         <ul class = "full-list">
             <li className = "list-item">
                 <a href = "#">
