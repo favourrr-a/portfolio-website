@@ -1,8 +1,8 @@
 import HeaderNavBar from './HeaderNavBar';
 import HeaderContent from './HeaderContent';
 import HeaderBackground from './HeaderBackground';
-import '../styles/HeaderStructure.css'
-function HeaderStructure() {
+import '../styles/LandingPage.css'
+function LandingPage() {
 
 
     return (
@@ -28,4 +28,4 @@ function HeaderStructure() {
     )
 }
 
-export default HeaderStructure;
+export default LandingPage;

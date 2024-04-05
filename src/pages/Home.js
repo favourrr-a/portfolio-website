@@ -1,8 +1,8 @@
-import HeaderStructure from '../components/HeaderStructure';
+import LandingPage from '../components/LandingPage';
 function Home(){
     return(
     <>
-    <HeaderStructure/>
+    <LandingPage/>
     </>
     )
 }
