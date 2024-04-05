@@ -1,6 +1,4 @@
 import '../styles/HeaderContent.css'
-import ThingsIveDone from '../pages/ThingsIveDone.js';
-import Router from '../routes/index.js'
 import { useNavigate } from 'react-router-dom';
 
 function HeaderContent(){
