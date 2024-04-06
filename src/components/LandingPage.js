@@ -7,8 +7,10 @@ function LandingPage() {
     return (
         <>
             <div className="header-container">
+                <div className = "inner-container">
                     <HeaderNavBar />
                     <HeaderContent />
+                </div>
             </div>
         </>
     )
