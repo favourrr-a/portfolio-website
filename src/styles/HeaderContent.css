@@ -3,16 +3,17 @@
     bottom: 0px;
     height: 65%;
     width: 100%;
-    margin: auto;
     z-index: 1;
+    border: 2px solid blue;
 }
 
 .header-actual-content{
     margin-top: auto;
     margin-bottom: auto;
     position: inherit;
-    bottom: 10%;
+    bottom: 0px;
     z-index: 1;
+    /* border: 2px solid red; */
 
 }
 
