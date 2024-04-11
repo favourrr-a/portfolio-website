@@ -4,7 +4,7 @@
     height: 65%;
     width: 100%;
     z-index: 1;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 }
 
 .header-actual-content{
