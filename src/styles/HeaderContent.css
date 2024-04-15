@@ -4,17 +4,20 @@
     height: 65%;
     width: 100%;
     z-index: 1;
-    /* border: 2px solid blue; */
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: row;
 }
 
 .header-actual-content{
     margin-top: auto;
     margin-bottom: auto;
-    position: inherit;
+    position: relative;
     bottom: 0px;
     z-index: 1;
-    /* border: 2px solid red; */
-
+    border: 2px solid red;
+    width: 400px;
+    display: inline;
 }
 
 .button{
@@ -44,4 +47,13 @@
 .button-in-body:hover{
     background-color: white;
     cursor: pointer;
+}
+
+.image-container{
+    position: relative;
+    z-index: 1;
+    border: 2px solid red;
+    width: 400px;
+    height: 150px;
+    display: inline;
 }
