@@ -1,10 +1,11 @@
 import imageOfMe from "../assets/images/placehoder-image.jpeg"
 import '../styles/Image.css'
-function image(){
+function Image(){
     return(
         <>
-        <image src = {imageOfMe}/></>
+        <image src = {imageOfMe}/>
+        </>
     )
 }
 
-export default image;
+export default Image;

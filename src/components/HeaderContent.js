@@ -1,5 +1,5 @@
 import '../styles/HeaderContent.css'
-import image from './Image';
+import Image from './Image.js';
 import { useNavigate } from 'react-router-dom';
 
 function HeaderContent(){
@@ -39,7 +39,7 @@ function HeaderContent(){
         </div>
 
         <div className="image-container">
-            <image/>
+            <Image/>
         </div>   
         
     </div>
