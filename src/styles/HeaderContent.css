@@ -4,7 +4,7 @@
     height: 65%;
     width: 100%;
     z-index: 1;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     display: flex;
     flex-direction: row;
 }
@@ -15,8 +15,10 @@
     position: relative;
     bottom: 0px;
     z-index: 1;
-    border: 2px solid red;
-    width: 400px;
+    /* border: 2px solid red; */
+    width: 70%;
+    height: 100%;
+
     display: inline;
 }
 
@@ -52,8 +54,8 @@
 .image-container{
     position: relative;
     z-index: 1;
-    border: 2px solid red;
-    width: 400px;
-    height: 150px;
+    /* border: 2px solid red; */
+    width: 30%;
+    height: 100%;
     display: inline;
 }
