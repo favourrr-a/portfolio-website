@@ -1,6 +1,6 @@
 image{
-    z-index: 1; 
+    z-index: 2; 
     border: 2px solid red;
-    height: 500px;
-    width: 500px;
+    height: 100%;
+    width: 100%;
 }
