@@ -16,9 +16,9 @@ function HeaderContent(){
     </div>
     <div id="header-content-2">
         <div className='header-actual-content'>
-            <h2> Hi, I'm Favour</h2>
+            <h2> Hi</h2>
             <div>
-                <p>
+                <p className ='paragraph'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Vivamus arcu felis bibendum ut tristique et. Faucibus a pellentesque sit amet porttitor eget dolor. At elementum eu facilisis sed 
                 odio morbi quis. Lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt. Neque ornare aenean euismod elementum. Purus 

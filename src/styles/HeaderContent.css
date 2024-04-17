@@ -9,6 +9,13 @@
     flex-direction: row;
 }
 
+h2{
+    font-size: 2.5vw;
+}
+
+.paragraph{
+    font-size: 1vw;
+}
 .header-actual-content{
     margin-top: auto;
     margin-bottom: auto;
@@ -18,7 +25,7 @@
     /* border: 2px solid red; */
     width: 70%;
     height: 100%;
-
+    font-size: 1vw;
     display: inline;
 }
 
@@ -26,13 +33,12 @@
     display: flex;
     flex-direction: row;
     z-index: 1;
-
 }
 .buttons{
     position: relative;
     left: 0px;
     padding: 0px;
-    
+    font-size: 1vw;
 }
 
 .button-in-body{
