@@ -2,4 +2,5 @@ img{
     height: 85%;
     width: 100%;
     border-radius: 50%;
+    border: 2px dotted white;
 }
