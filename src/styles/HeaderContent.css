@@ -62,9 +62,10 @@ h2{
     position: relative;
     z-index: 1;
     /* border: 2px solid red; */
-    width: 30%;
-    height: 100%;
+    width: 25%;
+    height: 85%;
     display: inline;
+    margin-left: 5%;
 }
 
 #button-in-body-2{
