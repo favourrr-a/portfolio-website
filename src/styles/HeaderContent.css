@@ -41,7 +41,7 @@ h2{
     padding: 0px;
     font-size: 1vw;
     /* border: 2px solid red; */
-
+    margin-top: 35px;
 }
 
 .button-in-body{
@@ -74,5 +74,5 @@ h2{
 }
 
 #button-in-body-2{
-    margin-left: 5px;
+    margin-left: 10px;
 }
