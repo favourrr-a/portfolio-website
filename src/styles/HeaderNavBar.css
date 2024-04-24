@@ -26,10 +26,6 @@
     cursor: pointer;
 }
 
-#nav-bar-content-1{
+#nav-bar-content-1, #nav-bar-content-2, #nav-bar-content-3{
     color: white;    
-}
-
-#nav-bar-content-2{
-    color: white;
 }
