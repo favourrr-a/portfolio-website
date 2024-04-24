@@ -15,17 +15,19 @@
     padding-top: 5px;
     padding-bottom: 5px;
     font-size: 1vw;
-
+    background-color: #F4A698; 
 }
 
 .nav-bar-content:hover{
     width: 100px;
     padding-top: 5px;
     padding-bottom: 5px;
-    background-color: pink;
+    background-color: white;
     cursor: pointer;
 }
 
 #nav-bar-content-1, #nav-bar-content-2, #nav-bar-content-3{
-    color: white;    
+    color: black;   
+    margin: 5px;
+    border-radius: 10px;
 }
