@@ -1,4 +1,4 @@
-import HeaderNavBar from './HeaderNavBar';
+import HeaderNavBar from './NavBar';
 import HeaderContent from './HeaderContent';
 import '../styles/LandingPage.css'
 function LandingPage() {

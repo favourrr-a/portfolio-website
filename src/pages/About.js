@@ -1,9 +1,13 @@
-import HeaderNavBar from '../components/HeaderNavBar';
-
+import NavBar from '../components/NavBar';
+import '../styles/LandingPage.css'
 function About(){
     return(
     <>
-    <HeaderNavBar/>
+        <div className="header-container">
+            <div className = "inner-container">
+                <NavBar/>
+            </div>
+        </div>
     </>
     )
 }

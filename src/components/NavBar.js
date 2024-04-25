@@ -1,8 +1,8 @@
 import { useNavigate } from 'react-router-dom';
 
-import '../styles/HeaderNavBar.css'
+import '../styles/NavBar.css'
 
-function HeaderNavBar() {
+function NavBar() {
 const navigate = useNavigate();
 
     const navToHome = () => {
@@ -36,4 +36,4 @@ const navigate = useNavigate();
     )
 }
 
-export default HeaderNavBar;
+export default NavBar;
