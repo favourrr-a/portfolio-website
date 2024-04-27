@@ -23,15 +23,15 @@ const navigate = useNavigate();
 
     return(
         <div className = "header-nav-bar-content">
-            <div className = "nav-bar-content" id = "nav-bar-content-1" onClick={navToHome}>
+            <a className = "nav-bar-content" id = "nav-bar-content-1" href = "javascript:;" onClick={navToHome}>
                 Home
-            </div>
-            <div className = "nav-bar-content" id = "nav-bar-content-2" onClick={navToAbout}>
+            </a>
+            <a className = "nav-bar-content" id = "nav-bar-content-2" href = "javascript:;" onClick={navToAbout}>
                 About
-            </div>
-            <div className = "nav-bar-content" id = "nav-bar-content-3" onClick={navToContact}>
+            </a>
+            <a className = "nav-bar-content" id = "nav-bar-content-3" href = "javascript:;" onClick={navToContact}>
                 Contact
-            </div>
+            </a>
         </div>
     )
 }
