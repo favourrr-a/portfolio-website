@@ -1,3 +1,4 @@
+import BackgroundParticles from '../components/BackgroundParticles';
 import ListOfThingsIveDone from '../components/ListofThingsIveDone';
 import NavBar from '../components/NavBar';
 import '../styles/LandingPage.css';
@@ -8,6 +9,7 @@ function ThingsIveDone(){
     <>
     <div className="header-container">
             <div className = "inner-container">
+                <BackgroundParticles/>
                 <NavBar/>
                 <ListOfThingsIveDone/>
             </div>

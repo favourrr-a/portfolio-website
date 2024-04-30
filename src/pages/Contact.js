@@ -1,4 +1,5 @@
 import NavBar from '../components/NavBar';
+import BackgroundParticles from '../components/BackgroundParticles';
 import '../styles/LandingPage.css'
 function Contact(){
     return(
@@ -6,6 +7,7 @@ function Contact(){
         <div className="header-container">
             <div className = "inner-container">
                 <NavBar/>
+                <BackgroundParticles/>
             </div>
         </div>
     </>

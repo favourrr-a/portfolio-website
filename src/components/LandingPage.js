@@ -1,5 +1,6 @@
 import HeaderNavBar from './NavBar';
 import HeaderContent from './HeaderContent';
+import BackgroundParticles from '../components/BackgroundParticles';
 import '../styles/LandingPage.css'
 function LandingPage() {
 
@@ -8,6 +9,7 @@ function LandingPage() {
         <>
             <div className="header-container">
                 <div className = "inner-container">
+                    <BackgroundParticles/>
                     <HeaderNavBar />
                     <HeaderContent />
                 </div>

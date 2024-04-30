@@ -1,3 +1,4 @@
+import BackgroundParticles from '../components/BackgroundParticles';
 import NavBar from '../components/NavBar';
 import '../styles/LandingPage.css'
 function About(){
@@ -6,6 +7,7 @@ function About(){
         <div className="header-container">
             <div className = "inner-container">
                 <NavBar/>
+                <BackgroundParticles/>
             </div>
         </div>
     </>
