@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import Particles, { initParticlesEngine } from "@tsparticles/react";
-import particlesOptions from "./config/BackgroundParticles.Config.json";
+import particlesOptions from "./config/BackgroundParticlesConfig.json";
 import '../styles/BackgroundParticles.css';
 // import { loadAll } from "@tsparticles/all"; // if you are going to use `loadAll`, install the "@tsparticles/all" package too.
 // import { loadFull } from "tsparticles"; // if you are going to use `loadFull`, install the "tsparticles" package too.
