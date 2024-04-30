@@ -1,6 +1,7 @@
 import '../styles/HeaderContent.css'
 import Image from './Image.js';
 import { useNavigate } from 'react-router-dom';
+import TextAnimation from './TextAnimation.js';
 
 function HeaderContent(){
     const navigate = new useNavigate();
@@ -16,7 +17,7 @@ function HeaderContent(){
     </div>
     <div id="header-content-2">
         <div className='header-actual-content'>
-            <h2> Hi</h2>
+            <TextAnimation/>
             <div>
                 <p className ='paragraph'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 

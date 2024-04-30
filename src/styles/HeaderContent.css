@@ -1,7 +1,7 @@
 #header-content-2{
     position: absolute;
-    bottom: 5%;
-    height: 65%;
+    bottom: 10%;
+    /* height: 65%; */
     width: 100%;
     z-index: 1;
     /* border: 2px solid blue; */
@@ -16,6 +16,7 @@ h2{
 
 .paragraph{
     font-size: 1vw;
+    margin-top: 10%;
 }
 .header-actual-content{
     margin-top: auto;
@@ -41,7 +42,7 @@ h2{
     padding: 0px;
     font-size: 1vw;
     /* border: 2px solid red; */
-    margin-top: 35px;
+    margin-top: 5%;
 }
 
 .button-in-body{
@@ -75,4 +76,8 @@ h2{
 
 #button-in-body-2{
     margin-left: 10px;
+}
+
+TextAnimation{
+    border-radius: 50%;
 }

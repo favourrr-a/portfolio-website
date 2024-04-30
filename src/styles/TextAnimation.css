@@ -1,0 +1,14 @@
+.header-heading-container{
+    /* border: 2px solid red; */
+    /* position: fixed; */
+    position: absolute;
+    height: 10%;
+    display: block;
+    top: 0px;
+    /* margin-top: 15px; */
+}
+.header-heading{
+    margin: auto;
+    color: #F4A698;
+    font: 700 normal 2.5em 'tahoma';
+}
