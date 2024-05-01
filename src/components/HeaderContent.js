@@ -1,14 +1,9 @@
 import '../styles/HeaderContent.css'
 import Image from './Image.js';
-import { useNavigate } from 'react-router-dom';
 import TextAnimation from './TextAnimation.js';
 
 function HeaderContent(){
-    const navigate = new useNavigate();
-    const navToThingsIveDone = () => {
-
-        navigate('/thingsIveDone');
-    }
+    
     return(
     <>
     <div id="header-content-1">
@@ -28,14 +23,14 @@ function HeaderContent(){
                 </p>
             </div>
             <div>
-                <div className='buttons'>
+                {/* <div className='buttons'>
                     <div className='button-in-body' id="button-in-body-1">
                         hire me
                     </div>
                     <div className='button-in-body' id="button-in-body-2" onClick={navToThingsIveDone}>
                         see stuff i've done
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
 

@@ -21,6 +21,11 @@ const navigate = useNavigate();
         navigate('/contact');
     }
 
+    const navToThingsIveDone = () => {
+
+        navigate('/thingsIveDone');
+    }
+
     return(
         <div className = "header-nav-bar-content">
             <a className = "nav-bar-content" id = "nav-bar-content-1" href = "javascript:;" onClick={navToHome}>
@@ -31,6 +36,12 @@ const navigate = useNavigate();
             </a>
             <a className = "nav-bar-content" id = "nav-bar-content-3" href = "javascript:;" onClick={navToContact}>
                 Contact
+            </a>
+            <a className = "nav-bar-content" id = "nav-bar-content-4" href = "javascript:;" onClick={navToThingsIveDone}>
+                Stuff I've done
+            </a>
+            <a className = "nav-bar-content" id = "nav-bar-content-5" href = "javascript:;" onClick={navToContact}>
+                Hire me
             </a>
         </div>
     )
