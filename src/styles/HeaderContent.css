@@ -45,7 +45,7 @@ h2{
     margin-top: 5%;
 }
 
-.button-in-body{
+.link-in-body{
     background-color: #F4A698;
     color: black;
     /* border: 2px solid red; */
@@ -56,7 +56,7 @@ h2{
     border-radius: 10px;
 }
 
-.button-in-body:hover{
+.link-in-body:hover{
     background-color: white;
     cursor: pointer;
 }
@@ -74,7 +74,7 @@ h2{
     padding: 10px;
 }
 
-#button-in-body-2{
+#link-in-body-2, #link-in-body-3{
     margin-left: 10px;
 }
 

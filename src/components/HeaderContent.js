@@ -23,14 +23,17 @@ function HeaderContent(){
                 </p>
             </div>
             <div>
-                {/* <div className='buttons'>
-                    <div className='button-in-body' id="button-in-body-1">
-                        hire me
+                <div className='links'>
+                    <div className='link-in-body' id="link-in-body-1">
+                        linkedIn
                     </div>
-                    <div className='button-in-body' id="button-in-body-2" onClick={navToThingsIveDone}>
-                        see stuff i've done
+                    <div className='link-in-body' id="link-in-body-2">
+                        Github
                     </div>
-                </div> */}
+                    <div className='link-in-body' id="link-in-body-3">
+                        X
+                    </div>
+                </div>
             </div>
         </div>
 
