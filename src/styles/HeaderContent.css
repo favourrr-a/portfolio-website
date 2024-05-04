@@ -42,7 +42,7 @@ h2{
 }
 
 .link-in-body:hover{
-    background-color: white;
+    color: white;
     cursor: pointer;
 }
 
