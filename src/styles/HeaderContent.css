@@ -46,14 +46,13 @@ h2{
 }
 
 .link-in-body{
-    background-color: #F4A698;
-    color: black;
+    color: #F4A698;
     /* border: 2px solid red; */
     z-index: 1;
-    width: 250px;
-    padding: 5px;
     display: inline;
     border-radius: 10px;
+    width: 30px;
+    height: auto;
 }
 
 .link-in-body:hover{
@@ -75,7 +74,7 @@ h2{
 }
 
 #link-in-body-2, #link-in-body-3{
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 TextAnimation{
