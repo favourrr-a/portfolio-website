@@ -1,6 +1,9 @@
 import '../styles/HeaderContent.css'
 import Image from './Image.js';
 import TextAnimation from './TextAnimation.js';
+import {FaLinkedin} from 'react-icons/fa6';
+import {FaGithub} from 'react-icons/fa6';
+import {FaX} from 'react-icons/fa6';
 
 function HeaderContent(){
     
@@ -22,18 +25,10 @@ function HeaderContent(){
                 semper quis lectus nulla at volutpat diam ut. Cras adipiscing enim eu turpis egestas pretium aenean pharetra. Massa tincidunt nunc pulvinar sapien et.
                 </p>
             </div>
-            <div>
-                <div className='links'>
-                    <div className='link-in-body' id="link-in-body-1">
-                        linkedIn
-                    </div>
-                    <div className='link-in-body' id="link-in-body-2">
-                        Github
-                    </div>
-                    <div className='link-in-body' id="link-in-body-3">
-                        X
-                    </div>
-                </div>
+            <div className='links'>
+                <FaLinkedin className = "link-in-body"/>
+                <FaGithub className = "link-in-body" id = "link-in-body-2"/>
+                <FaX className ="link-in-body" id = "link-in-body-3"/>
             </div>
         </div>
 
