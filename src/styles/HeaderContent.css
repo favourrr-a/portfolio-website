@@ -31,20 +31,6 @@ h2{
     display: inline;
 }
 
-.button{
-    display: flex;
-    flex-direction: row;
-    z-index: 1;
-}
-.buttons{
-    position: relative;
-    left: 0px;
-    padding: 0px;
-    font-size: 1vw;
-    /* border: 2px solid red; */
-    margin-top: 5%;
-}
-
 .link-in-body{
     color: #F4A698;
     /* border: 2px solid red; */
