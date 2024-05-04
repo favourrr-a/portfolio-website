@@ -26,9 +26,15 @@ function HeaderContent(){
                 </p>
             </div>
             <div className='links'>
-                <FaLinkedin className = "link-in-body"/>
-                <FaGithub className = "link-in-body" id = "link-in-body-2"/>
-                <FaX className ="link-in-body" id = "link-in-body-3"/>
+                <a href = "https://www.linkedin.com/in/favour-ackonu-b046a3295/">
+                    <FaLinkedin className = "link-in-body"/>
+                </a>
+                <a href = "https://github.com/favourrr-a">
+                    <FaGithub className = "link-in-body" id = "link-in-body-2"/>
+                </a>
+                <a href = "https://twitter.com/favour69912">
+                    <FaX className ="link-in-body" id = "link-in-body-3"/>
+                </a>
             </div>
         </div>
 
