@@ -32,7 +32,7 @@ function HeaderContent(){
                 <a href = "https://github.com/favourrr-a">
                     <FaGithub className = "link-in-body" id = "link-in-body-2"/>
                 </a>
-                <a href = "https://twitter.com/favour69912">
+                <a href = "https://twitter.com/favour_ya">
                     <FaX className ="link-in-body" id = "link-in-body-3"/>
                 </a>
             </div>
