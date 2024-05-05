@@ -1,3 +1,4 @@
+import '../styles/SocialMediaLinks.css';
 import {FaLinkedin} from 'react-icons/fa6';
 import {FaGithub} from 'react-icons/fa6';
 import {FaX} from 'react-icons/fa6';
