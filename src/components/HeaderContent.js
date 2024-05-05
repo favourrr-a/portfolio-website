@@ -1,9 +1,7 @@
 import '../styles/HeaderContent.css'
+import SocialMediaLinks from './SocialMediaLinks.js';
 import Image from './Image.js';
 import TextAnimation from './TextAnimation.js';
-import {FaLinkedin} from 'react-icons/fa6';
-import {FaGithub} from 'react-icons/fa6';
-import {FaX} from 'react-icons/fa6';
 
 function HeaderContent(){
     
@@ -25,17 +23,7 @@ function HeaderContent(){
                 semper quis lectus nulla at volutpat diam ut. Cras adipiscing enim eu turpis egestas pretium aenean pharetra. Massa tincidunt nunc pulvinar sapien et.
                 </p>
             </div>
-            <div className='links'>
-                <a href = "https://www.linkedin.com/in/favour-ackonu-b046a3295/">
-                    <FaLinkedin className = "link-in-body"/>
-                </a>
-                <a href = "https://github.com/favourrr-a">
-                    <FaGithub className = "link-in-body" id = "link-in-body-2"/>
-                </a>
-                <a href = "https://twitter.com/favour_ya">
-                    <FaX className ="link-in-body" id = "link-in-body-3"/>
-                </a>
-            </div>
+            <SocialMediaLinks/>
         </div>
 
         <div className="image-container">
