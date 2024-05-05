@@ -1,3 +1,4 @@
+import SocialMediaLinks from '../components/SocialMediaLinks';
 import '../styles/AboutPageContent.css';
 function AboutPageContent(){
 return(
@@ -34,6 +35,7 @@ return(
                 Bsc. Computer Science with Mathematics
             </p>
         </div>
+        <SocialMediaLinks/>
     </div>
 )
 }
