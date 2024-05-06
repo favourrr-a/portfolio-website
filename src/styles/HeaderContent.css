@@ -31,20 +31,7 @@ h2{
     display: inline;
 }
 
-.link-in-body{
-    color: #F4A698;
-    /* border: 2px solid red; */
-    z-index: 1;
-    display: inline;
-    border-radius: 10px;
-    width: 30px;
-    height: auto;
-}
 
-.link-in-body:hover{
-    color: white;
-    cursor: pointer;
-}
 
 .image-container{
     position: relative;

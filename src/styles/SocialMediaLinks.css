@@ -1,3 +1,18 @@
 .links{
     margin-top: 4.5%;
 }
+
+.link-in-body{
+    color: #F4A698;
+    /* border: 2px solid red; */
+    z-index: 1;
+    display: inline;
+    border-radius: 10px;
+    width: 5%;
+    height: auto;
+}
+
+.link-in-body:hover{
+    color: white;
+    cursor: pointer;
+}
