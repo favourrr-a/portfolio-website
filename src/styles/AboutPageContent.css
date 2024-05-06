@@ -10,11 +10,28 @@ h1{
     height: 90%;
 }
 
-.skills-list{
+.skills-list, .socials-list{
     padding-left: 0;
+    display: flex;
 }
 
-.skills-list-item{
+.skills-list-item, .socials-list-item{
     list-style-type: none;
     font-size: 1em;
+    margin-right: 5%;
+}
+
+.socials-list-item a{
+    color: white;
+    /* border: 2px solid red; */
+    z-index: 1;
+    display: inline;
+    border-radius: 10px;
+    width: 5%;
+    height: auto;
+}
+
+.socials-list-item a:hover{
+    color: #F4A698;
+    cursor: pointer;
 }
