@@ -20,8 +20,8 @@ function LandingPage() {
         {loading ? <LoadingScreen/> :
         
         <div className="header-container">
+            <BackgroundParticles/>
             <div className = "inner-container">
-                <BackgroundParticles/>
                 <HeaderNavBar />
                 <HeaderContent />
             </div>

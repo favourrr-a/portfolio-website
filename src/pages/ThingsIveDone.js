@@ -7,9 +7,9 @@ import '../styles/ThingsIveDone.css';
 function ThingsIveDone(){
     return(
     <>
-    <div className="header-container">
+        <div className="header-container">
+            <BackgroundParticles/>
             <div className = "inner-container">
-                <BackgroundParticles/>
                 <NavBar/>
                 <ListOfThingsIveDone/>
             </div>

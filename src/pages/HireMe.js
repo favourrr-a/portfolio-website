@@ -5,9 +5,9 @@ function HireMe(){
     return(
     <>
         <div className="header-container">
+            <BackgroundParticles/>
             <div className = "inner-container">
                 <NavBar/>
-                <BackgroundParticles/>
             </div>
         </div>
     </>
