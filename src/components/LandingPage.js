@@ -31,4 +31,6 @@ function LandingPage() {
     )
 }
 
+//todo: make loading screen show up only on first time website opens or (maybe)  whenever it's refreshed
+
 export default LandingPage;
