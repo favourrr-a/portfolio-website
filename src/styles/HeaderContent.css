@@ -34,7 +34,7 @@ h2{
 
 
 .image-container{
-    position: relative;
+    /* position: relative; */
     z-index: 1;
     /* border: 2px solid red; */
     width: 25%;
