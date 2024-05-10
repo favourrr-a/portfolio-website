@@ -4,15 +4,20 @@ import HeaderContent from './HeaderContent';
 import BackgroundParticles from '../components/BackgroundParticles';
 import LoadingScreen from './LoadingScreen';
 import '../styles/LandingPage.css'
-function LandingPage() {
+function LandingPage({argument}) {
 
-    const [loading, setLoading] = useState(true);
+const [loading, setLoading] = useState(true);
 
     useEffect(()=> {
-        setLoading(false);
-        setTimeout(() => {
+        if(argument){
             setLoading(true);
-        }, 11000)
+        }
+        else{
+            setLoading(false);
+            setTimeout(() => {
+                setLoading(true);
+            }, 11000)
+        }
     }, [])
 
     return (
@@ -30,7 +35,5 @@ function LandingPage() {
          </>
     )
 }
-
-//todo: make loading screen show up only on first time website opens or (maybe)  whenever it's refreshed
 
 export default LandingPage;

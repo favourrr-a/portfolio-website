@@ -1,10 +1,12 @@
 import LandingPage from '../components/LandingPage';
-function Home(){
+function Home({argument}){
     return(
-    <>
-    <LandingPage/>
-    </>
-    )
+        <>
+            {
+                argument ? <LandingPage argument = {argument}/> : <LandingPage/>
+            }
+        </>
+    );
 }
 
 export default Home;
