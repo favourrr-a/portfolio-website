@@ -6,18 +6,18 @@ import LoadingScreen from './LoadingScreen';
 import '../styles/LandingPage.css'
 function LandingPage() {
 
-    const [loading, setLoading] = useState(false);
+    const [loading, setLoading] = useState(true);
 
     useEffect(()=> {
-        setLoading(true);
+        setLoading(false);
         setTimeout(() => {
-            setLoading(false);
+            setLoading(true);
         }, 11000)
     }, [])
 
     return (
         <>
-        {loading ? <LoadingScreen/> :
+        {!loading ? <LoadingScreen/> :
         
         <div className="header-container">
             <BackgroundParticles/>
