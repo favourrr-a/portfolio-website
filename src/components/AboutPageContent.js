@@ -42,7 +42,7 @@ return(
             </h2>
             <p className='group-content'>
             <ul className='socials-list'>
-                <li className = "socials-list-item"> <a href = "https://www.linkedin.com/in/favour-ackonu-b046a3295/"> LinkedIn </a> </li>
+                <li className = "socials-list-item"> <a href = "https://www.linkedin.com/in/favour-ackonu/"> LinkedIn </a> </li>
                 <li className = "socials-list-item"> <a href = "https://github.com/favourrr-a"> Github </a> </li>
                 <li className = "socials-list-item"> <a href = "https://twitter.com/favour_ya"> Twitter </a> </li>
             </ul>            
