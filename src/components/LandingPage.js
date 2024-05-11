@@ -25,7 +25,6 @@ const [loading, setLoading] = useState(true);
         {!loading ? <LoadingScreen/> :
         
         <div className="header-container">
-            <BackgroundParticles/>
             <div className = "inner-container">
                 <HeaderNavBar />
                 <HeaderContent />

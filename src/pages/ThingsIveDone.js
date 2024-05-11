@@ -8,7 +8,6 @@ function ThingsIveDone(){
     return(
     <>
         <div className="header-container">
-            <BackgroundParticles/>
             <div className = "inner-container">
                 <NavBar/>
                 <ListOfThingsIveDone/>

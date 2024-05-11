@@ -6,7 +6,6 @@ function About(){
     return(
     <>
         <div className="header-container">
-            <BackgroundParticles/>
             <div className = "inner-container">
                 <NavBar/>
                 <AboutPageContent/>
