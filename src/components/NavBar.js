@@ -6,8 +6,12 @@ function NavBar() {
 const navigate = useNavigate();
 
     const navToHome = () => {
-
-        navigate('/home');
+        const currentRoute = window.location.pathname;
+        if(currentRoute === '/about' || currentRoute === '/contact' || currentRoute ==='thingsIveDone' || currentRoute === 'hireMe'){
+            navigate('/home');
+        }else {
+            navigate('/')
+        }
     }
 
     const navToAbout = () => {
