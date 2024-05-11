@@ -1,4 +1,3 @@
-import BackgroundParticles from '../components/BackgroundParticles';
 import ListOfThingsIveDone from '../components/ListofThingsIveDone';
 import NavBar from '../components/NavBar';
 import '../styles/LandingPage.css';

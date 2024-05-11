@@ -1,5 +1,4 @@
 import NavBar from '../components/NavBar';
-import BackgroundParticles from '../components/BackgroundParticles';
 import '../styles/LandingPage.css'
 function Contact(){
     return(

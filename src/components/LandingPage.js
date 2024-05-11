@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import HeaderNavBar from './NavBar';
 import HeaderContent from './HeaderContent';
-import BackgroundParticles from '../components/BackgroundParticles';
 import LoadingScreen from './LoadingScreen';
 import '../styles/LandingPage.css'
 function LandingPage({argument}) {
