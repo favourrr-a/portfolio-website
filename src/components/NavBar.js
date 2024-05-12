@@ -1,7 +1,6 @@
 import { useNavigate } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import {FaHamburger} from 'react-icons/fa';
-
+import {FaBars} from 'react-icons/fa6';
 import '../styles/NavBar.css'
 
 function NavBar() {
@@ -70,7 +69,7 @@ function NavBar() {
             </a>
             </div> :
             <div className='header-nav-bar-content'>
-                <FaHamburger className = "header-nav-bar-content-hamburger"/>
+                <FaBars className = "header-nav-bar-content-hamburger"/>
             </div>
             }
         </div>
