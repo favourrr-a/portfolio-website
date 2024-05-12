@@ -1,9 +1,25 @@
 import { useNavigate } from 'react-router-dom';
+import { useState, useEffect } from 'react';
+import {FaHamburger} from 'react-icons/fa';
 
 import '../styles/NavBar.css'
 
 function NavBar() {
-const navigate = useNavigate();
+
+    const [smallScreen, setSmallScreen] = useState(false);
+    const navigate = useNavigate();
+
+    useEffect(() => {
+        const checkScreenSize = () => {
+        setSmallScreen(window.innerWidth <= 750);
+        };
+
+        checkScreenSize();
+
+        window.addEventListener('resize', checkScreenSize);
+
+        return () => window.removeEventListener('resize', checkScreenSize);
+    }, []);
 
     const navToHome = () => {
         const currentRoute = window.location.pathname;
@@ -35,7 +51,8 @@ const navigate = useNavigate();
     }
 
     return(
-        <div className = "header-nav-bar-content">
+        <div>{!smallScreen ? 
+            <div className = "header-nav-bar-content">
             <a className = "nav-bar-content" id = "nav-bar-content-1" href = "javascript:;" onClick={navToHome}>
                 Home
             </a>
@@ -51,6 +68,11 @@ const navigate = useNavigate();
             <a className = "nav-bar-content" id = "nav-bar-content-5" href = "javascript:;" onClick={navToHireMe}>
                 Hire me
             </a>
+            </div> :
+            <div className='header-nav-bar-content'>
+                <FaHamburger className = "header-nav-bar-content-hamburger"/>
+            </div>
+            }
         </div>
     )
 }
