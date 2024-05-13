@@ -22,7 +22,7 @@ function NavBar() {
 
     const navToHome = () => {
         const currentRoute = window.location.pathname;
-        if(currentRoute === '/about' || currentRoute === '/contact' || currentRoute ==='thingsIveDone' || currentRoute === 'hireMe'){
+        if(currentRoute === '/about' || currentRoute === '/contact' || currentRoute ==='/thingsIveDone' || currentRoute === '/hireMe'){
             navigate('/home');
         }else {
             navigate('/')
