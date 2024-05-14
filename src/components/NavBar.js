@@ -6,6 +6,7 @@ import '../styles/NavBar.css'
 function NavBar() {
 
     const [smallScreen, setSmallScreen] = useState(false);
+    const [navList, setNavList] = useState(false);
     const navigate = useNavigate();
 
     useEffect(() => {
@@ -19,6 +20,10 @@ function NavBar() {
 
         return () => window.removeEventListener('resize', checkScreenSize);
     }, []);
+
+    const showNavList = () => {
+        setNavList(prevValue => !prevValue);
+    };
 
     const navToHome = () => {
         const currentRoute = window.location.pathname;
@@ -48,7 +53,7 @@ function NavBar() {
     const navToHireMe = () => {
         navigate('/hireMe')
     }
-
+    
     const ActualNavBar = () => {
         return(
             <div className = {!smallScreen ? "header-nav-bar-content" : "header-nav-bar-content-small-screen"}>
@@ -71,11 +76,25 @@ function NavBar() {
         );
     }
 
+   
+    const ToggleNavList = () => {
+        return(
+            <>
+            {
+                !navList ? <FaBars className = "header-nav-bar-content-hamburger" onClick = {showNavList}/> : 
+                <>
+                    <FaBars className = "header-nav-list-content-hamburger" onClick = {showNavList}/>
+                    <ActualNavBar/>
+                </>
+            }
+            </>
+        )
+    }
     return(
         <div>{!smallScreen ? <ActualNavBar/>
              :
             <div className='header-nav-bar-content'>
-                <FaBars className = "header-nav-bar-content-hamburger"/>
+                <ToggleNavList/>
             </div>
             }
         </div>
