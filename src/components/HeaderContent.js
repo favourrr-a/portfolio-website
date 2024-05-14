@@ -21,12 +21,8 @@ function HeaderContent(){
     
     return(
     <>
-    <div id="header-content-1">
-    
-
-    </div>
-    <div id="header-content-2">
-        <div className='header-actual-content'>
+    <div id={!smallScreen ? "header-content-2" : "header-content-2-small-screen"}>
+        <div className={!smallScreen ? "header-actual-content" : "header-actual-content-small-screen"}>
             <TextAnimation/>
             <div>
                 <p className ='paragraph'>

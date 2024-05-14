@@ -4,14 +4,9 @@
     /* height: 65%; */
     width: 100%;
     z-index: 1;
-    /* border: 2px solid blue; */
+    border: 2px solid blue;
     display: flex;
     flex-direction: row;
-}
-
-h2{
-    font-size: 2.5vw;
-    color: #F4A698
 }
 
 .paragraph{
@@ -24,7 +19,7 @@ h2{
     position: relative;
     bottom: 0px;
     z-index: 1;
-    /* border: 2px solid red; */
+    border: 2px solid red;
     width: 70%;
     height: 100%;
     font-size: 1vw;
@@ -50,4 +45,29 @@ h2{
 
 TextAnimation{
     border-radius: 50%;
+}
+
+
+/* small screen */
+#header-content-2-small-screen{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    z-index: 1;
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: row;
+    height: 90%;
+}
+
+.header-actual-content-small-screen{
+    margin-top: auto;
+    margin-bottom: auto;
+    bottom: 0px;
+    z-index: 1;
+    border: 2px solid red;
+    width: 100%;
+    height: 100%;
+    font-size: 1vw;
+    display: inline;
 }
