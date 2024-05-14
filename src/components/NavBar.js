@@ -49,9 +49,9 @@ function NavBar() {
         navigate('/hireMe')
     }
 
-    return(
-        <div>{!smallScreen ? 
-            <div className = "header-nav-bar-content">
+    const ActualNavBar = () => {
+        return(
+            <div className = {!smallScreen ? "header-nav-bar-content" : "header-nav-bar-content-small-screen"}>
             <a className = "nav-bar-content" id = "nav-bar-content-1" href = "javascript:;" onClick={navToHome}>
                 Home
             </a>
@@ -67,7 +67,13 @@ function NavBar() {
             <a className = "nav-bar-content" id = "nav-bar-content-5" href = "javascript:;" onClick={navToHireMe}>
                 Hire me
             </a>
-            </div> :
+            </div>
+        );
+    }
+
+    return(
+        <div>{!smallScreen ? <ActualNavBar/>
+             :
             <div className='header-nav-bar-content'>
                 <FaBars className = "header-nav-bar-content-hamburger"/>
             </div>
