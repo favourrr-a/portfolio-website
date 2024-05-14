@@ -2,8 +2,22 @@ import '../styles/HeaderContent.css'
 import SocialMediaLinks from './SocialMediaLinks.js';
 import Image from './Image.js';
 import TextAnimation from './TextAnimation.js';
+import { useState, useEffect } from 'react';
 
 function HeaderContent(){
+    const [smallScreen, setSmallScreen] = useState(false);
+
+    useEffect(() => {
+        const checkScreenSize = () => {
+        setSmallScreen(window.innerWidth <= 750);
+        };
+
+        checkScreenSize();
+
+        window.addEventListener('resize', checkScreenSize);
+
+        return () => window.removeEventListener('resize', checkScreenSize);
+    }, []);
     
     return(
     <>
@@ -26,13 +40,17 @@ function HeaderContent(){
             <SocialMediaLinks/>
         </div>
 
-        <div className="image-container">
-            <Image/>
-        </div>   
+        {
+            !smallScreen ?  
+            <div className="image-container">
+                <Image/>
+            </div>
+            : 
+            <></>
+        }   
         
     </div>
     </>
     )
 }
-//install react-icons
 export default HeaderContent;
