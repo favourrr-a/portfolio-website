@@ -57,19 +57,19 @@ function NavBar() {
     const ActualNavBar = () => {
         return(
             <div className = {!smallScreen ? "header-nav-bar-content" : "header-nav-bar-content-small-screen"}>
-            <a className = "nav-bar-content" id = "nav-bar-content-1" href = "javascript:;" onClick={navToHome}>
+            <a className = {!smallScreen ? "nav-bar-content" : "nav-bar-content-list"} id = "nav-bar-content-1" href = "javascript:;" onClick={navToHome}>
                 Home
             </a>
-            <a className = "nav-bar-content" id = "nav-bar-content-2" href = "javascript:;" onClick={navToAbout}>
+            <a className = {!smallScreen ? "nav-bar-content" : "nav-bar-content-list"} id = "nav-bar-content-2" href = "javascript:;" onClick={navToAbout}>
                 About
             </a>
-            <a className = "nav-bar-content" id = "nav-bar-content-3" href = "javascript:;" onClick={navToContact}>
+            <a className = {!smallScreen ? "nav-bar-content" : "nav-bar-content-list"} id = "nav-bar-content-3" href = "javascript:;" onClick={navToContact}>
                 Contact
             </a>
-            <a className = "nav-bar-content" id = "nav-bar-content-4" href = "javascript:;" onClick={navToThingsIveDone}>
+            <a className = {!smallScreen ? "nav-bar-content" : "nav-bar-content-list"} id = "nav-bar-content-4" href = "javascript:;" onClick={navToThingsIveDone}>
                 Stuff I've done
             </a>
-            <a className = "nav-bar-content" id = "nav-bar-content-5" href = "javascript:;" onClick={navToHireMe}>
+            <a className = {!smallScreen ? "nav-bar-content" : "nav-bar-content-list"} id = "nav-bar-content-5" href = "javascript:;" onClick={navToHireMe}>
                 Hire me
             </a>
             </div>
@@ -84,7 +84,7 @@ function NavBar() {
                 !navList ? <FaBars className = "header-nav-bar-content-hamburger" onClick = {showNavList}/> : 
                 <>
                     <FaBars className = "header-nav-list-content-hamburger" onClick = {showNavList}/>
-                    <ActualNavBar/>
+                    <ActualNavBar className/>
                 </>
             }
             </>

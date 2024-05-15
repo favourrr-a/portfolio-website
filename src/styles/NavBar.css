@@ -59,3 +59,40 @@ a{
     color: white;
     cursor: pointer;
 }
+
+.header-nav-bar-content-hamburger{
+    height: 5%;
+    width: 10%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1vw;
+    color: #F4A698; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.header-nav-list-content-hamburger:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.header-nav-bar-content-small-screen{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid red; */
+}
+
+.nav-bar-content-list{
+    /* border: 2px solid red;
+    color: #F4A698; */
+    height: 5%;
+    width: 10%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 1vw;
+    background-color: #F4A698; 
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
