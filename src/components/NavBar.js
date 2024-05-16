@@ -57,7 +57,7 @@ function NavBar() {
     const ActualNavBar = () => {
         return(
             <div className = {!smallScreen ? "header-nav-bar-content" : "header-nav-bar-content-small-screen"}>
-            <a className = {!smallScreen ? "nav-bar-content" : "nav-bar-content-list"} id = "nav-bar-content-1" href = "javascript:;" onClick={navToHome}>
+            <a className = {!smallScreen ? "nav-bar-content" : "nav-bar-content-list"} id = {!smallScreen ? "nav-bar-content-1" : "nav-bar-content-1-small"} href = "javascript:;" onClick={navToHome}>
                 Home
             </a>
             <a className = {!smallScreen ? "nav-bar-content" : "nav-bar-content-list"} id = "nav-bar-content-2" href = "javascript:;" onClick={navToAbout}>
@@ -81,11 +81,14 @@ function NavBar() {
         return(
             <>
             {
-                !navList ? <FaBars className = "header-nav-bar-content-hamburger" onClick = {showNavList}/> : 
-                <>
-                    <FaBars className = "header-nav-list-content-hamburger" onClick = {showNavList}/>
+                !navList ? 
+                <div className = "header-nav-content-ham-and-nav-list">
+                    <FaBars className = "header-nav-bar-content-hamburger" onClick = {showNavList}/>
+                </div> : 
+                <div className = "header-nav-content-ham-and-nav-list">
+                    <FaBars className = "header-nav-bar-content-hamburger" onClick = {showNavList}/>
                     <ActualNavBar className/>
-                </>
+                </div>
             }
             </>
         )
