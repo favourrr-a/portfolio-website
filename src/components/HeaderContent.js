@@ -23,9 +23,9 @@ function HeaderContent(){
     <>
     <div id={!smallScreen ? "header-content-2" : "header-content-2-small-screen"}>
         <div className={!smallScreen ? "header-actual-content" : "header-actual-content-small-screen"}>
-            <TextAnimation/>
+            <TextAnimation par={!smallScreen ? "text-animation" : "text-animation-small"}/>
             <div>
-                <p className ='paragraph'>
+                <p className = {!smallScreen ? "paragraph" : "paragraph-small"}>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Vivamus arcu felis bibendum ut tristique et. Faucibus a pellentesque sit amet porttitor eget dolor. At elementum eu facilisis sed 
                 odio morbi quis. Lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt. Neque ornare aenean euismod elementum. Purus 

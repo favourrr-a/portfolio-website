@@ -10,5 +10,22 @@
 .header-heading{
     margin: auto;
     color: #F4A698;
-    font: 700 normal 2.5em 'tahoma';
+    font: 700 normal 3em 'tahoma';
+}
+
+.header-heading-container-small{
+    /* border: 2px solid red; */
+    /* position: fixed; */
+    position: absolute;
+    height: 10%;
+    display: block;
+    top: 0px;
+    /* margin-top: 15px; */
+}
+
+.header-heading-small{
+    margin: auto;
+    color: #F4A698;
+    font: 700 normal 4em 'tahoma';
+    /* border: 2px solid red; */
 }

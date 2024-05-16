@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import '../styles/TextAnimation.css';
 
-const TextAnimation = () => {
+const TextAnimation = (par) => {
   const words = ["Hi I'm Favour", "I'm from Ghana", 'Skills...', 'ReactJS', 'Java'];
   const [currentWordIndex, setCurrentWordIndex] = useState(0);
   const [offset, setOffset] = useState(0);
@@ -39,9 +39,16 @@ const TextAnimation = () => {
     return () => clearInterval(wordFlick);
   }, [currentWordIndex, offset, forwards, skipCount, words]);
 
+  let smallScreen;
+
+  if(par === "text-animation"){
+    smallScreen = false;
+  }else{
+    smallScreen = true;
+  }
   return (
-    <div className="header-heading-container">
-        <div className="header-heading">{words[currentWordIndex].substr(0, offset)}</div>
+    <div className={!smallScreen ? "header-heading-container" : "header-heading-container-small"}>
+        <div className={!smallScreen ? "header-heading" : "header-heading-small"}>{words[currentWordIndex].substr(0, offset)}</div>
     </div>
   );
 };
