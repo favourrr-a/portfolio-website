@@ -331,7 +331,7 @@
       "type": "circle"
     },
     "size": {
-      "value": 2,
+      "value": 5,
       "animation": {
         "count": 0,
         "enable": false,
