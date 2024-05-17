@@ -403,10 +403,10 @@
       },
       "particles": {
         "enable": true,
-        "frequency": 3,
+        "frequency": 5,
         "opacity": 1,
         "color": {
-          "value": "#ffffff"
+          "value": ""
         }
       }
     },
