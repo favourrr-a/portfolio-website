@@ -55,7 +55,7 @@ TextAnimation{
     bottom: 0px;
     width: 100%;
     z-index: 1;
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     display: flex;
     flex-direction: column;
     height: 90%;
@@ -63,7 +63,7 @@ TextAnimation{
 
 .header-actual-content-small-screen{
     z-index: 1;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100%;
     height: 100%;
     font-size: 1vw;
@@ -72,11 +72,7 @@ TextAnimation{
 }
 
 .paragraph-small{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     font-size: 15px;
     margin-top: 10%;
-}
-
-.text-animation-small{
-    border: 2px solid green;
 }
