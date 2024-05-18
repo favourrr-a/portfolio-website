@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmy_portfolio_website=self.webpackChunkmy_portfolio_website||[]).push([[3714],{3714:(e,t,a)=>{async function l(e){let t=!(arguments.length>1&&void 0!==arguments[1])||arguments[1];await e.addParticleUpdater("roll",(async()=>{const{RollUpdater:e}=await a.e(6677).then(a.bind(a,6677));return new e}),t)}a.d(t,{loadRollUpdater:()=>l})}}]);
+//# sourceMappingURL=3714.8446f262.chunk.js.map
