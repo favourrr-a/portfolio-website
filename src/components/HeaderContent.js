@@ -28,7 +28,7 @@ function HeaderContent(){
                 <p className = {!smallScreen ? "paragraph" : "paragraph-small"}>
                     My name is Favour Ackonu. I am a student of University of Ghana studying Bsc. Mathematical
                     Science, Computer Science with Mathematics. I am 18 years old. I am currently interested in
-                    anything related to computers, and I have not yet chosen a specific field to specialize in. However, I do know what
+                    anything related to computers, but I have not yet chosen a specific field to specialize in. However, I do know what
                     I do not want to specialize in, and that is front-end development. It's too difficult for me. I mean, this website
                     is literally my best front-end work, and look at the state of it. But yes, I am willing to learn new things.
                 </p>
