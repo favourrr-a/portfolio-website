@@ -26,11 +26,11 @@ function HeaderContent(){
             <TextAnimation par={!smallScreen ? "text-animation" : "text-animation-small"}/>
             <div>
                 <p className = {!smallScreen ? "paragraph" : "paragraph-small"}>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Vivamus arcu felis bibendum ut tristique et. Faucibus a pellentesque sit amet porttitor eget dolor. At elementum eu facilisis sed 
-                odio morbi quis. Lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt. Neque ornare aenean euismod elementum. Purus 
-                sit amet volutpat consequat mauris. Vitae 
-                semper quis lectus nulla at volutpat diam ut. Cras adipiscing enim eu turpis egestas pretium aenean pharetra. Massa tincidunt nunc pulvinar sapien et.
+                    My name is Favour Ackonu. I am student of University of Ghana studying Bsc. Mathematical
+                    Science, Computer Science with Mathematics. I am 18 years old. I am currently interested in
+                    anything relating computers, and have not yet chosen a specific field to specify in. I do know what
+                    I do not want to specialize in, and that is Front-End development. It's too hard for me. I mean, this website
+                    is literally my best frontend work, and look at the state of it. But yes, I am willing to learn new things.
                 </p>
             </div>
             <SocialMediaLinks/>
