@@ -1,6 +1,6 @@
 # My Portfolio Website
 
-Welcome to my portfolio website! This project showcases my skills, projects, and contact information.
+Welcome to my portfolio website! This project showcases my skills, projects, and contact information (_kind of_).
 
 ## Technologies Used
 
@@ -8,18 +8,17 @@ Welcome to my portfolio website! This project showcases my skills, projects, and
 - **CSS**: For styling, I used Vanilla CSS.
 - **Github Pages**: To deploy my app to the web, I used Github Pages. 
 
-I mentioned a couple of other technologies I used, such as tsparticles, and react-spinners.
-i used in the commit messages. 
+I mentioned a couple of other technologies I used, such as tsparticles, and react-spinners in my commit messages. 
 
 ## Project Structure
 
 Here's the basic structure of my portfolio:
 
 - **Home**: Contains links to different sections of the portfolio.
-- **About**: Information about myself.
-- **Contact**: Not complete
-- **Stuff I've Done**: Details about the projects I've done.
-- **Hire Me**: Feedback from clients or colleagues.
+- **About**: Information about myself. _Currently being developed_
+- **Contact**: _Currently being developed_
+- **Stuff I've Done**: Details about the projects I've done. _Most of them are not real. Yet._
+- **Hire Me**: _Currently being developed_
 
 ## Getting Started
 
@@ -42,5 +41,3 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### Contributors: Favour Ackonu
-
----
